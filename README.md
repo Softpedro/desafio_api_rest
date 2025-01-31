@@ -67,6 +67,15 @@ If you are looking for a cloud-based platform to deploy your NestJS application,
 ```bash
 $ yarn install -g mau
 $ mau deploy
+
+
+## 📌 Documentación con Swagger
+
+Esta API incluye documentación interactiva con **Swagger**.
+Para acceder a la documentación, primero asegúrate de que el servidor esté en ejecución y luego visita la siguiente URL en tu navegador:
+
+🔗 **Swagger UI:** [http://localhost:3000/api](http://localhost:3000/api)
+
 ```
 
 With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.

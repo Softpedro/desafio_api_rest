@@ -81,10 +81,10 @@ export class BookController {
     type: String,
     description: 'ID del libro a eliminar',
   })
-  @ApiResponse({ status: 200, description: 'Libro eliminado lógicamente.' })
+  @ApiResponse({ status: 200, description: 'Libro eliminado.' })
   @ApiResponse({ status: 404, description: 'Libro no encontrado.' })
   async delete(@Param('id') id: string): Promise<{ message: string }> {
     await this.softDeleteBookUseCase.execute(id);
-    return { message: 'Libro eliminado lógicamente' };
+    return { message: 'Libro eliminado' };
   }
 }
