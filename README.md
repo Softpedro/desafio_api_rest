@@ -69,12 +69,13 @@ $ yarn install -g mau
 $ mau deploy
 
 
-## 📌 Documentación con Swagger
+## 📌 API Documentation with Swagger
 
-Esta API incluye documentación interactiva con **Swagger**.
-Para acceder a la documentación, primero asegúrate de que el servidor esté en ejecución y luego visita la siguiente URL en tu navegador:
+To access the interactive API documentation, you can use **Swagger**. After starting the application, Swagger will be available at the following URL:
 
-🔗 **Swagger UI:** [http://localhost:3000/api](http://localhost:3000/api)
+🔗 **URL:** [http://localhost:3000/api](http://localhost:3000/api)
+
+This route allows you to explore all available API endpoints, perform tests, and get detailed information about each one.
 
 ```
 
